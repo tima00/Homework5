@@ -1,6 +1,6 @@
 public class Boss {
    private int health ;
-   private int Damage;
+   private int damage;
    private int protection;
 
     public int getHealth() {
@@ -12,11 +12,11 @@ public class Boss {
     }
 
     public int getDamage() {
-        return Damage;
+        return damage;
     }
 
     public void setDamage(int damage) {
-        Damage = damage;
+        this.damage = damage;
     }
 
     public int getProtection() {
